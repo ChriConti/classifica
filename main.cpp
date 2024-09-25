@@ -27,13 +27,7 @@ int main() {
                 topreorder(add_name, classifica);
                 break;
             case 's':
-                cout << "Classifica attuale:\n"; // con s di 'show' mostra la classifica con posizione nome e punteggio
-                for (int i = 0; i < 10; i++) {
-                    if (classifica[i].punteggio > 0) {
-                        cout << i + 1 << ". " << classifica[i].nome
-                             << " - Punteggio: " << classifica[i].punteggio << endl;
-                    }
-                }
+                topshow(classifica); //con s di show viene richiamata la funzione mostra top
                 break;
             case 'e':
                 end = true; //qui imposta la variabile dichiarata prima del do while su vera cosi termina il ciclo e il programma

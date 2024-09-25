@@ -11,5 +11,6 @@ typedef struct Classifica{ // definisco la struct qui per lasciare il main pulit
 
 void topreorder (classifica_t add_name, classifica_t classifica[]);
 void topset (classifica_t classifica[]);
+void topshow (classifica_t classifica[]);
 
 #endif //CLASSIFICA_CLASSIFICA_H

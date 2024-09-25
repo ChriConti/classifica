@@ -3,7 +3,6 @@
 //
 #include <iostream>
 #include "../include/classifica.h"
-#include <string>
 using namespace std;
 
 void topreorder (classifica_t add_name, classifica_t classifica[]){
@@ -31,5 +30,15 @@ void topset (classifica_t classifica[]){ //funzione che pulisce la classifica
     for(int i=0; i<10; i++) {
         classifica[i].punteggio= 0;
         classifica[i].nome = " ";
+    }
+}
+
+void topshow (classifica_t classifica[]) { //funzione che mostra la classifica
+    cout << "Classifica attuale:\n";
+    for (int i = 0; i < 10; i++) {
+        if (classifica[i].punteggio > 0) { //solo se maggiore di 0 cosi non mostra la classifica inizializzata vuota
+            cout << i + 1 << ". " << classifica[i].nome
+                 << " - punteggio: " << classifica[i].punteggio << endl;
+        }
     }
 }
