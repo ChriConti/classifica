@@ -1,0 +1,10 @@
+# ninja log v6
+2	699	1727196880549903595	CMakeFiles/classifica.dir/src/classifica.cpp.o	ab76eec8f5e42803
+1	707	1727196880548509096	CMakeFiles/classifica.dir/main.cpp.o	7f6ad03fbdce74ec
+707	827	1727196881254590563	classifica	e26aad32ec52e452
+9	800	1727199296377375779	CMakeFiles/classifica.dir/src/classifica.cpp.o	ab76eec8f5e42803
+8	807	1727199296375994605	CMakeFiles/classifica.dir/main.cpp.o	7f6ad03fbdce74ec
+808	931	1727199297175876185	classifica	e26aad32ec52e452
+22	816	1727202643007227139	CMakeFiles/classifica.dir/src/classifica.cpp.o	ab76eec8f5e42803
+20	821	1727202643006048958	CMakeFiles/classifica.dir/main.cpp.o	7f6ad03fbdce74ec
+821	942	1727202643806920769	classifica	e26aad32ec52e452
